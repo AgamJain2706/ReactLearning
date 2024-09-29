@@ -1,0 +1,221 @@
+.Container {
+  background: #f7f5f4;
+  text-align: center;
+}
+
+.Box {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 900px;
+  width: 1000px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 0;
+}
+
+input {
+  border: gray;
+}
+
+form input {
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  height: 32px;
+  margin-top: 15px;
+  text-shadow: gray;
+  margin-left: 20px;
+  border: 1px solid gray;
+}
+
+form select {
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: gray;
+  left: 0;
+  right: 0;
+  height: 32px;
+  margin-top: 0;
+  margin-left: 20px;
+  border: 1px solid gray;
+}
+
+.card-label {
+  background: #38373741;
+  border-radius: 2px;
+  margin-top: -30px;
+  display: flex;
+  margin-left: 26px;
+  align-items: start;
+  width: 220px;
+  height: 60px;
+  position: relative;
+  padding: 8px;
+}
+
+.card-label .small-radio {
+  width: 15px;
+  height: 15px;
+  margin-top: 12px;
+}
+
+.card-label label {
+  padding-top: 8px;
+  justify-content: space-evenly;
+  padding-left: 8px;
+}
+
+.agree .sizebox {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+@media (max-width: 1000px) {
+  .Box {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  form input,
+  form select {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2px;
+  }
+
+  .card-label {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -120px;
+  }
+
+  .body {
+    padding: 20px;
+  }
+
+  .agree {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .agree button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .Box {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  form input,
+  form select {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2px;
+  }
+
+  .card-label {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -120px;
+  }
+
+  .body {
+    padding: 20px;
+  }
+
+  .agree {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .agree button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 880px) {
+  .Box {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  #form_input {
+    margin-top: -20px;
+  }
+
+  form input,
+  form select {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2px;
+  }
+
+  .card-label {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -120px;
+  }
+
+  .body {
+    padding: 20px;
+  }
+
+  .agree {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .agree button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Box {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  form input,
+  form select {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 4px;
+  }
+
+  .card-label {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .body {
+    padding: 20px;
+  }
+
+  .agree {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .agree button {
+    width: 100%;
+  }
+
+  .sections {
+    margin-top: 25px;
+  }
+}

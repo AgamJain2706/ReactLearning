@@ -1,0 +1,38 @@
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  height: 100vh;
+}
+  
+  @media (min-width: 1000px) {
+    .flex-row {
+      flex-direction: row;
+    }
+    .space-x-5 {
+      gap: 1.25rem;
+    }
+    .p-20 {
+      padding: 4rem;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .flex-row {
+      flex-direction: column;
+    }
+    .space-y-5 {
+      gap: 1.25rem;
+    }
+    .p-5 {
+      padding: 1.25rem;
+    }
+  }
+
